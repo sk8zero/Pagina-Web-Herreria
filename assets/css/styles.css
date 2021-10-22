@@ -1,0 +1,241 @@
+/* estilos em general */
+/* anchura maxima de la pagina es de 1600px */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #666;
+  background: #fdfefe;
+}
+
+.main .articles article {
+  background: white;
+
+  margin-bottom: 20px;
+}
+
+#fondo-inicio {
+  width: 100%;
+  background: linear-gradient(
+      to right,
+      rgba(75, 123, 211, 0.5),
+      rgba(22, 215, 177, 0.3)
+    ),
+    url("../img/fondo-porton.jpg");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  #fondo-inicio {
+    width: 100%;
+    height: 50vh;
+  }
+} 
+
+.box-title {
+  width: 100%;
+  margin: auto auto auto auto;
+  text-align: center;
+}
+
+header,
+.main,
+footer {
+  width: 100%;
+  max-width: 1920px;
+  margin: 10px 0 0px;
+}
+
+.row img {
+  width: 36px;
+  height: 36px;
+  padding: 0%;
+}
+
+.row label {
+  margin-top: 10px;
+  margin-left: 10px;
+  max-width: 200px;
+  padding: 0%;
+}
+
+.box {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  background: #cacfd2;
+  border-radius: 8px;
+  height: 200px;
+  text-align: center;
+  padding: 0%;
+}
+
+.navbar.scroll.navbar-light.px-3 {
+  color: #fbfcfc;
+}
+
+/* Service */
+.container-service {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.colum-service {
+  max-width: 600px;
+  width: 100%;
+  margin: 20px ;
+  border: 2px solid #fff;
+  border-radius: 50px 0px 50px 0px;
+  -webkit-border-radius: 50px 0px 50px 0px;
+  -moz-border-radius: 50px 0px 50px 0px;
+  -ms-border-radius: 50px 0px 50px 0px;
+  -o-border-radius: 50px 0px 50px 0px;
+}
+
+.img-servicios {
+  height: 50vh;
+  width: 100%;
+  max-width: 600px;
+}
+
+.colum-service h2 {
+  font-size: 28px;
+  color: #202020;
+}
+
+.colum-service label {
+  font-size: 20px;
+  color: #202020;
+}
+
+.colum-service p {
+  color: #202020;
+}
+
+.colum-service .row {
+  margin-top: 20px;
+  display: flex;
+}
+
+@media screen and (max-width: 1100px) {
+  .container-service {
+    flex-wrap: wrap;
+  }
+
+  .colum-service {
+    margin-top: 40px;
+  }
+}
+
+@media screen and(min-width:400px) {
+  .container-service {
+    display: block;
+  }
+}
+
+/* footer */
+.container-body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #202020;
+  padding: 10px;
+}
+
+.colum2 {
+  max-width: 500px;
+  width: 80%;
+  margin-right: 10px;
+  margin: 20px ;
+  border: 2px solid #fff;
+  padding: 20px;
+  border-radius: 50px 0px 50px 0px;
+  -webkit-border-radius: 50px 0px 50px 0px;
+  -moz-border-radius: 50px 0px 50px 0px;
+  -ms-border-radius: 50px 0px 50px 0px;
+  -o-border-radius: 50px 0px 50px 0px;
+}
+
+.colum2 h2 {
+  font-size: 20px;
+  color: #c7c7c7;
+}
+
+.colum2 label {
+  font-size: 18px;
+  color: #c7c7c7;
+}
+
+.colum2 p {
+  color: #c7c7c7;
+}
+
+.colum2 .row {
+  margin-top: 20px;
+  display: flex;
+}
+
+.row i {
+  width: 36px;
+  height: 36px;
+  font-size: 36px;
+  padding: 0%;
+  color: white;
+}
+
+.row label {
+  margin-top: 5px;
+  margin-left: 10px;
+  max-width: 200px;
+  padding: 0%;
+}
+
+.row label a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.row label a:hover{
+    color:#28B463 ;
+}
+
+@media screen and (max-width: 1100px) {
+  .container-body {
+    flex-wrap: wrap;
+  }
+
+  .colum2 {
+    margin-top: 40px;
+  }
+}
+
+@media screen and(min-width:400px) {
+  .container-body {
+    display: block;
+  }
+}
+
+.Copyright {
+  text-align: center;
+  background: #161718;
+  width: 100%;
+  padding: 20px;
+  height: 60px;
+  color: #b2babb;
+}
+/**/
+
+.articulo-1{
+  text-align: center;
+}
+
+article{
+  max-width: 1920px;
+}
